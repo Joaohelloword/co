@@ -1,0 +1,253 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 200px;
+}
+h2{
+    margin-top: 200px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+h2 span{
+    color: #FFD369;
+}
+body{
+    background-color: #222831;
+    height: 150vh;
+
+}
+a{
+    color: #aca4a4;
+    text-decoration: none;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    color: #EEEEEE;
+    font-family: tahoma;
+    font-size: 23px;
+}
+p, h1, h2, h3{
+    font-size: 23px;
+    font-family: tahoma;
+    color: #EEEEEE;
+}
+header a{
+    color: #5b6370;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    transition: .3s;
+}
+header a:hover{
+    color: #EEEEEE;
+    transform: scale(1.07);
+    transition: .4s;
+
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+   display: inline-block;
+   padding: 0 40px; 
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: #FFD369;
+    border: none;
+    cursor: pointer;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #d2da61;
+    transform: scale(1.05);
+    transition: .3s;
+}
+/*parte 2 CSS*/
+section .topo{
+    padding: 40px 4%;
+}
+.flex{
+    display: flex;
+}
+section .topo .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo .txt h1{
+    color: #FFD369;
+    font-size: 34px;
+    line-height: 40px;
+}
+.topo .txt p{
+    margin: 40px 0px;
+}
+
+.topo .img img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    } 
+    100%{
+        top: 30px;
+    }
+}
+/* estilo das especialidades*/
+section .especialidades{
+    padding: 200px 4%;
+}
+section.especialidades .flex{
+gap: 60px;
+}
+h2 .titulo{
+    margin-top: 200px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+h2 .tittle span{
+    color: #FFD369;
+}
+.especialidades .especialidades-box{
+    color: #FFFFFF;
+    padding: 40px;
+    border: 2px solid #FFF;
+    margin-top: 170px;
+    border-radius: 20px;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #FFD369;
+    transition: .3s;
+}
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #FFD369;
+
+}
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+/*seção sobre mim*/
+.sobre{
+    padding: 80px 4%;
+}
+.sobre .txt{
+    color: #FFFFFF;
+}
+.flex{
+    align-items: center;
+    gap: 90px;
+}
+.txt h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+.txt h2 span{
+    color: #FFD369;
+    margin-bottom: 30px;
+    display: block;
+}
+.sobre .txt p{
+    margin: 20px 0px;
+    margin-bottom: 60px;
+text-align: justify;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFD369;
+    font-size: 27px;
+    cursor: pointer;
+    margin: 0 7px;
+    margin-bottom: 250px;
+}
+.btn-social button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #FFD369;
+    transition: .3s;
+}
+/*section form*/
+section .formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #111111;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 130px;
+}
+form input::placeholder{
+    color: #d2da61;
+}
+form textarea::placeholder{
+    color: #FFD369;
+}
+form .btn-enviar{
+    margin-top: 15px;
+}
+form .btn-enviar{
+    width: 160px;
+    background-color: #FFD369;
+    color: #000000;
+    font-weight: 550;
+    cursor: pointer;
+
+}
+form .btn-enviar:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #FFD369;
+    transition: .3s;
+}
+h2{
+    font-size: 35px;
+}
